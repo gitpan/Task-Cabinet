@@ -1,0 +1,18 @@
+NAME
+    Task::Cabinet - Install all the CPAN modules needed by Cabinet
+
+DESCRIPTION
+    This module installs all the dependencies for the stable version of Cabinet.
+
+AUTHOR
+    Anton Gerasimov <chim@cpan.org>
+
+SEE ALSO
+    Task
+
+COPYRIGHT AND LICENSE
+    Copyright 2012 Anton Gerasimov.
+
+    This program is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
+
+    The full text of the license can be found in the LICENSE file included with this module.
