@@ -35,6 +35,7 @@ requires:
   Plack: 0
   Plack::Middleware::Debug: 0
   Plack::Middleware::Debug::DBIProfile: 0
+  Plack::Middleware::Debug::Redis: 0
   Redis: 0
   Starman: 0
   Template: 0
@@ -45,4 +46,4 @@ requires:
   WWW::Mechanize: 0
   YAML: 0
   perl: 5.010001
-version: 0.05
+version: 0.06

@@ -34,6 +34,7 @@ my %options = (
         'Plack::Middleware::Debug::DBIProfile' => 0,
         'Template::Plugin::Octets' => 0,
         'List::MoreUtils' => 0,
+        'Plack::Middleware::Debug::Redis' => 0,
     },
     'BUILD_REQUIRES' => {
         'Test::More' => '0.98',

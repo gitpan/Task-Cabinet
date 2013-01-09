@@ -1,5 +1,8 @@
 Revision history for Perl extension Task::Cabinet
 
+0.06    2013-01-09
+    - added Plack::Middleware::Debug::Redis
+
 0.05    2013-01-08
     - added List::MoreUtils
     - deleted Parallel::Scoreboard

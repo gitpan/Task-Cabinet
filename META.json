@@ -49,6 +49,7 @@
             "Plack" : 0,
             "Plack::Middleware::Debug" : 0,
             "Plack::Middleware::Debug::DBIProfile" : 0,
+            "Plack::Middleware::Debug::Redis" : 0,
             "Redis" : 0,
             "Starman" : 0,
             "Template" : 0,
@@ -63,5 +64,5 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.05"
+   "version" : "0.06"
 }
