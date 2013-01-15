@@ -4,7 +4,7 @@ use v5.10.1;
 use warnings;
 use strict;
 
-our $VERSION = '0.06';
+our $VERSION = '0.07';
 
 1; # End of Task::Cabinet
 
@@ -15,6 +15,10 @@ __END__
 =head1 NAME
 
 Task::Cabinet - Install all the CPAN modules needed by Cabinet
+
+=head1 VERSION
+
+version 0.07
 
 =head1 DESCRIPTION
 

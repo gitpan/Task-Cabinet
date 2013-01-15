@@ -22,7 +22,8 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Test::More" : "0.98"
+            "Test::More" : "0.98",
+            "Test::Pod" : "1.22"
          }
       },
       "configure" : {
@@ -34,7 +35,6 @@
          "requires" : {
             "Bundle::PlRPC" : 0,
             "Carp" : 0,
-            "DBD::mysql" : 0,
             "DBI" : 0,
             "Dancer" : 0,
             "Dancer::Debug" : 0,
@@ -64,5 +64,5 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.06"
+   "version" : "0.07"
 }

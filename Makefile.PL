@@ -15,7 +15,6 @@ my %options = (
         'Starman' => 0,
         'Bundle::PlRPC' => 0,
         'DBI' => 0,
-        'DBD::mysql' => 0,
         'Redis' => 0,
         'Dancer' => 0,
         'Dancer::Debug' => 0,
@@ -38,6 +37,7 @@ my %options = (
     },
     'BUILD_REQUIRES' => {
         'Test::More' => '0.98',
+        'Test::Pod'  => '1.22',
     },
     'MIN_PERL_VERSION' => '5.10.1',
     'test' => {

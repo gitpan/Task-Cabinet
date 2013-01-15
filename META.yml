@@ -4,6 +4,7 @@ author:
   - 'Anton Gerasimov <chim@cpan.org>'
 build_requires:
   Test::More: 0.98
+  Test::Pod: 1.22
 configure_requires:
   ExtUtils::MakeMaker: 0
 dynamic_config: 1
@@ -20,7 +21,6 @@ no_index:
 requires:
   Bundle::PlRPC: 0
   Carp: 0
-  DBD::mysql: 0
   DBI: 0
   Dancer: 0
   Dancer::Debug: 0
@@ -46,4 +46,4 @@ requires:
   WWW::Mechanize: 0
   YAML: 0
   perl: 5.010001
-version: 0.06
+version: 0.07
