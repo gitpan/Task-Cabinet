@@ -1,28 +1,36 @@
 Revision history for Perl extension Task::Cabinet
 
-0.07    2013-01-15
+0.09    Sun Mar 17 10:06:08 2013 +0000
+    - dist.ini uses @Author::CHIM now
+    - in Changes date replaced with datetime
+
+0.08    Sat Mar 16 15:09:54 2013 +0000
+    - deleted Redis (some modules requires it themselves)
+    - dzilify distribution
+
+0.07    Tue Jan 15 06:58:40 2013 +0000
     - deleted DBD::mysql
     - added pod testing
     - updated readme
 
-0.06    2013-01-09
+0.06    Wed Jan 9 13:47:00 2013 +0000
     - added Plack::Middleware::Debug::Redis
 
-0.05    2013-01-08
+0.05    Tue Jan 8 11:57:09 2013 +0000
     - added List::MoreUtils
     - deleted Parallel::Scoreboard
     - deleted Test::Pod
     - deleted Net::Daemon
 
-0.04    2013-01-05
+0.04    Sat Jan 5 10:39:40 2013 +0000
     - added Template::Plugin::Octets
 
-0.03    2012-12-13
+0.03    Thu Dec 13 15:13:24 2012 +0000
     - added Dancer::Debug
 
-0.02    2012-12-12
+0.02    Wed Dec 12 06:08:42 2012 +0000
     - deleted Server::Starter
     - added Dancer::Plugin::Database
 
-0.01    2012-12-11
+0.01    Tue Dec 11 17:34:35 2012 +0000
     - initial release

@@ -3,12 +3,12 @@ abstract: 'Install all the CPAN modules needed by Cabinet'
 author:
   - 'Anton Gerasimov <chim@cpan.org>'
 build_requires:
-  Test::More: 0.98
-  Test::Pod: 1.22
+  Test::More: 0
+  Test::Pod: 0
 configure_requires:
-  ExtUtils::MakeMaker: 0
-dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 6.64, CPAN::Meta::Converter version 2.112621'
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300030, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -17,7 +17,18 @@ name: Task-Cabinet
 no_index:
   directory:
     - t
-    - inc
+    - xt
+    - eg
+    - examples
+    - corpus
+  namespace:
+    - t::lib
+  package:
+    - DB
+provides:
+  Task::Cabinet:
+    file: lib/Task/Cabinet.pm
+    version: 0.09
 requires:
   Bundle::PlRPC: 0
   Carp: 0
@@ -36,7 +47,6 @@ requires:
   Plack::Middleware::Debug: 0
   Plack::Middleware::Debug::DBIProfile: 0
   Plack::Middleware::Debug::Redis: 0
-  Redis: 0
   Starman: 0
   Template: 0
   Template::Plugin::Octets: 0
@@ -45,5 +55,10 @@ requires:
   Try::Tiny: 0
   WWW::Mechanize: 0
   YAML: 0
-  perl: 5.010001
-version: 0.07
+  perl: v5.10.1
+resources:
+  bugtracker: https://github.com/Wu-Wu/Task-Cabinet/issues
+  homepage: https://metacpan.org/release/Task-Cabinet
+  repository: git://github.com/Wu-Wu/Task-Cabinet.git
+version: 0.09
+x_authority: cpan:CHIM
