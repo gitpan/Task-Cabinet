@@ -2,7 +2,7 @@ NAME
     Task::Cabinet - Install all the CPAN modules needed by Cabinet
 
 VERSION
-    version 0.09
+    version 0.10
 
 DESCRIPTION
     This Task module installs all the dependencies for the stable version of

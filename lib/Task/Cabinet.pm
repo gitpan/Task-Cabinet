@@ -2,11 +2,11 @@ package Task::Cabinet;
 
 # ABSTRACT: Install all the CPAN modules needed by Cabinet
 
-use v5.10.1;
+use 5.010001;
 use warnings;
 use strict;
 
-our $VERSION = '0.09'; # VERSION
+our $VERSION = '0.10'; # VERSION
 our $AUTHORITY = 'cpan:CHIM'; # AUTHORITY
 
 1; # End of Task::Cabinet
@@ -21,7 +21,7 @@ Task::Cabinet - Install all the CPAN modules needed by Cabinet
 
 =head1 VERSION
 
-version 0.09
+version 0.10
 
 =head1 DESCRIPTION
 

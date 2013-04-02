@@ -1,5 +1,13 @@
 Revision history for Perl extension Task::Cabinet
 
+0.10    Tue Apr 2 16:44:01 2013 +0000
+    - set minimum version number for several modules
+    - added Module::Versions
+    - removed Dancer::Debug
+    - removed JSON::XS (required by others)
+    - removed Template (required by others)
+    - removed WWW::Mechanize
+
 0.09    Sun Mar 17 10:06:08 2013 +0000
     - dist.ini uses @Author::CHIM now
     - in Changes date replaced with datetime
